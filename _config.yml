@@ -1,15 +1,11 @@
-markdown: kramdown
-highlighter: pygments
-relative_permalinks: false
-permalink: /news/:year/:month/:day/:title/
-excerpt_separator: noifniof3nioaniof3nioafafinoafnoif
+auto: true
 
-gauges_id: 503c5af6613f5d0f19000027
-google_analytics_id: UA-50755011-1
+markdown: rdiscount
+pygments: true
+paginate: 8
+permalink: /:title
 
-repository: https://github.com/jekyll/jekyll
-help_url: https://github.com/jekyll/jekyll-help
-
-collections:
-  docs:
-    output: true
+title: BeiYuu.com
+url: http://beiyuu.com
+feed: /atom.xml
+author_info: <a href="http://beiyuu.com/">BeiYuu</a>
